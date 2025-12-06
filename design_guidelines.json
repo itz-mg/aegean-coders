@@ -1,0 +1,166 @@
+{
+  "brand_identity": {
+    "name": "EduLink+",
+    "persona": "E1: The Anti-AI Designer",
+    "tone": "Academic yet Modern, Trusted, Growth-Oriented, Human",
+    "aesthetic": "Light & Clean (Ivy League meets Modern SaaS)",
+    "emotional_goal": "Clarity, Connection, Intellectual Growth"
+  },
+  "typography": {
+    "strategy": "The Old Money Tech",
+    "fonts": {
+      "headings": {
+        "family": "Playfair Display, serif",
+        "weights": ["400", "600", "700"],
+        "usage": "Main headings (H1-H3), Hero sections, Feature titles"
+      },
+      "body": {
+        "family": "Manrope, sans-serif",
+        "weights": ["400", "500", "600"],
+        "usage": "Paragraphs, UI elements, Navigation, Data display"
+      },
+      "mono": {
+        "family": "JetBrains Mono, monospace",
+        "usage": "Code snippets, IDs, Technical data"
+      }
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl tracking-tight font-semibold leading-tight",
+      "h2": "text-4xl md:text-5xl tracking-tight font-medium",
+      "h3": "text-2xl md:text-3xl tracking-normal font-medium",
+      "body_lg": "text-lg md:text-xl leading-relaxed text-muted-foreground",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-sm text-muted-foreground tracking-wide uppercase"
+    }
+  },
+  "colors": {
+    "palette": {
+      "base": {
+        "background": "#FFFFFF",
+        "surface": "#F9F9F7",
+        "surface_highlight": "#F2F2F0"
+      },
+      "primary": {
+        "main": "#0F172A",
+        "foreground": "#FFFFFF",
+        "description": "Deep Oxford Blue - Authority & Trust"
+      },
+      "accent": {
+        "main": "#00C16A",
+        "foreground": "#000000",
+        "description": "Electric Mint - Growth & Energy (The E1 Twist)"
+      },
+      "secondary": {
+        "main": "#E07A5F",
+        "foreground": "#FFFFFF",
+        "description": "Warm Clay - Human Connection"
+      },
+      "neutral": {
+        "100": "#F3F4F6",
+        "200": "#E5E7EB",
+        "500": "#6B7280",
+        "900": "#111827"
+      }
+    },
+    "semantic_mapping": {
+      "background": "bg-white",
+      "text_primary": "text-slate-900",
+      "text_secondary": "text-slate-500",
+      "border": "border-slate-200",
+      "primary_action": "bg-slate-900 text-white hover:bg-slate-800",
+      "accent_action": "bg-[#00C16A] text-black hover:bg-[#00A85D]",
+      "error": "text-red-600 bg-red-50"
+    }
+  },
+  "layout": {
+    "spacing_system": {
+      "base": "0.25rem",
+      "container_padding": "p-6 md:p-12 lg:p-20",
+      "section_gap": "gap-16 md:gap-32",
+      "component_gap": "gap-4 md:gap-8"
+    },
+    "grids": {
+      "marketing": {
+        "name": "The Tetris Grid",
+        "classes": "grid grid-cols-1 md:grid-cols-12 gap-8",
+        "rules": "Use asymmetry. Hero spans 8 cols, supporting content spans 4. Never fill 100% perfectly."
+      },
+      "dashboard": {
+        "name": "The Control Room",
+        "classes": "grid grid-cols-1 md:grid-cols-4 gap-6",
+        "rules": "Dense, data-heavy. Widgets stretch to fill height."
+      }
+    },
+    "container": {
+      "max_width": "max-w-7xl mx-auto",
+      "alignment": "center"
+    }
+  },
+  "components": {
+    "buttons": {
+      "marketing": "rounded-full px-8 py-6 text-lg font-medium transition-transform hover:-translate-y-1",
+      "dashboard": "rounded-md px-4 py-2 text-sm font-medium",
+      "primary": "bg-primary text-primary-foreground shadow-lg hover:shadow-xl",
+      "secondary": "bg-white border border-input hover:bg-accent hover:text-accent-foreground"
+    },
+    "cards": {
+      "style": "bg-white border border-border/40 shadow-sm hover:shadow-md transition-all duration-300",
+      "radius": "rounded-xl",
+      "padding": "p-6 md:p-8"
+    },
+    "inputs": {
+      "style": "bg-transparent border-b-2 border-border focus:border-primary rounded-none px-0 transition-colors",
+      "note": "Use 'Underline' style for marketing forms, standard boxed inputs for dashboard."
+    }
+  },
+  "assets": {
+    "icons": {
+      "library": "lucide-react",
+      "style": "Stroke width 1.5px, rounded caps",
+      "installation": "npm install lucide-react"
+    },
+    "images": {
+      "hero_background": {
+        "url": "https://images.unsplash.com/photo-1718327453695-4d32b94c90a4?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Grand university library with books",
+        "usage": "Hero section background with overlay"
+      },
+      "student_persona": {
+        "url": "https://images.unsplash.com/photo-1741699428220-65f37f3fbbcb?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Student studying in library",
+        "usage": "Testimonials or 'For Students' section"
+      },
+      "mentor_persona": {
+        "url": "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg",
+        "alt": "Professional mentor meeting",
+        "usage": "Mentor profiles or 'For Mentors' section"
+      },
+      "campus_vibe": {
+        "url": "https://images.pexels.com/photos/16689597/pexels-photo-16689597.jpeg",
+        "alt": "Modern university architecture",
+        "usage": "About Us or Features background"
+      }
+    }
+  },
+  "motion": {
+    "transitions": {
+      "default": "transition-all duration-300 ease-out",
+      "hover": "hover:-translate-y-1 hover:shadow-lg"
+    },
+    "animations": {
+      "fade_in": "animate-in fade-in duration-700",
+      "slide_up": "animate-in slide-in-from-bottom-8 duration-700"
+    }
+  },
+  "universal_guidelines": [
+    "DO NOT use gradients for text or backgrounds. Stick to solid, high-quality colors.",
+    "Use 'Playfair Display' for all H1-H3 headings. Use 'Manrope' for body.",
+    "Ensure all interactive elements have `data-testid` attributes.",
+    "Light Mode ONLY. Do not implement dark mode toggles.",
+    "Use 2x more whitespace than you think is necessary.",
+    "Images must be high-quality and relevant. No generic clip art.",
+    "For the dashboard, prioritize data density but keep it breathable with padding.",
+    "Marketing pages should feel like an editorial magazine, not a bootstrap template."
+  ],
+  "instructions_to_main_agent": "You are building the frontend for EduLink+. Follow these guidelines strictly. Use the provided image URLs. Implement the 'Tetris Grid' for the landing page and 'Control Room' grid for the dashboard. Use Shadcn UI components but customize them to match the 'Old Money Tech' aesthetic (Serif headings, sharp borders or specific radii). Ensure the 'Electric Mint' accent is used sparingly for high-impact CTAs only."
+}
